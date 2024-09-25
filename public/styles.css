@@ -4,13 +4,17 @@ html, body {
     display: flex;
     justify-content: center; 
     align-items: center; 
+    background-color: #807ECE;
 }
 
 .container {
     width: 50%; 
-    background-color: #f3f3f3; /* Cor de fundo */
-    padding: 20px; /* Espaçamento interno */
+    background-color: #2D2A37; /* Cor de fundo */
+    color:  white;
+    padding: 200px 75px; /* Espaçamento interno */
     text-align: center; /* Centraliza o texto */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
-    border-radius: 10px; /* Arredonda as bordas */
+    box-shadow: 
+    32px 16px 32px 16px rgba(0, 0, 0, 0.1) /* Sombra para destaque */
+    inset 32px rgba(0, 0, 0, 0.3); /* Sombra interna */
+    border-radius: 60px; /* Arredonda as bordas */
 }
